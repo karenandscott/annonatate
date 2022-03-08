@@ -1,8 +1,9 @@
 ---
+layout: none
 ---
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://karenandscott.github.io/annonatate/img/derivatives/iiif/DC/manifest.json",
+  "id": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -20,7 +21,7 @@
   "viewingDirection": "left-to-right",
   "items": [
     {
-      "id": "https://karenandscott.github.io/annonatate/img/derivatives/iiif/DC/canvas/DC-1",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/canvas/DC-1",
       "type": "Canvas",
       "label": {
         "en": [
@@ -29,7 +30,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://karenandscott.github.io/annonatate/img/derivatives/iiif/DC/DCWN01/full/169,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/DCWN01/full/169,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -37,35 +38,42 @@
       "width": 2700,
       "items": [
         {
-          "id": "https://karenandscott.github.io/annonatate/img/derivatives/iiif/DC/page/p1/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/page/p1/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://karenandscott.github.io/annonatate/img/derivatives/iiif/DC/annotation/p0001-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/annotation/p0001-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://karenandscott.github.io/annonatate/img/derivatives/iiif/DC/DCWN01/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/DCWN01/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2100,
                 "width": 2700,
                 "service": [
                   {
-                    "id": "https://karenandscott.github.io/annonatate/img/derivatives/iiif/DC/DCWN01",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/DCWN01",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://karenandscott.github.io/annonatate/img/derivatives/iiif/DC/canvas/DC-1"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/canvas/DC-1"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/dc-1-list.json",
+          "type": "AnnotationPage",
+          "target": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/canvas/DC-1"
         }
       ]
     },
     {
-      "id": "https://karenandscott.github.io/annonatate/img/derivatives/iiif/DC/canvas/DC-2",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/canvas/DC-2",
       "type": "Canvas",
       "label": {
         "en": [
@@ -74,7 +82,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://karenandscott.github.io/annonatate/img/derivatives/iiif/DC/DCWN02/full/169,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/DCWN02/full/169,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -82,35 +90,42 @@
       "width": 2700,
       "items": [
         {
-          "id": "https://karenandscott.github.io/annonatate/img/derivatives/iiif/DC/page/p2/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/page/p2/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://karenandscott.github.io/annonatate/img/derivatives/iiif/DC/annotation/p0002-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/annotation/p0002-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://karenandscott.github.io/annonatate/img/derivatives/iiif/DC/DCWN02/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/DCWN02/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2100,
                 "width": 2700,
                 "service": [
                   {
-                    "id": "https://karenandscott.github.io/annonatate/img/derivatives/iiif/DC/DCWN02",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/DCWN02",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://karenandscott.github.io/annonatate/img/derivatives/iiif/DC/canvas/DC-2"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/canvas/DC-2"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/dc-2-list.json",
+          "type": "AnnotationPage",
+          "target": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/canvas/DC-2"
         }
       ]
     },
     {
-      "id": "https://karenandscott.github.io/annonatate/img/derivatives/iiif/DC/canvas/DC-3",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/canvas/DC-3",
       "type": "Canvas",
       "label": {
         "en": [
@@ -119,7 +134,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://karenandscott.github.io/annonatate/img/derivatives/iiif/DC/DCWN03/full/169,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/DCWN03/full/169,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -127,35 +142,42 @@
       "width": 2700,
       "items": [
         {
-          "id": "https://karenandscott.github.io/annonatate/img/derivatives/iiif/DC/page/p3/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/page/p3/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://karenandscott.github.io/annonatate/img/derivatives/iiif/DC/annotation/p0003-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/annotation/p0003-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://karenandscott.github.io/annonatate/img/derivatives/iiif/DC/DCWN03/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/DCWN03/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2100,
                 "width": 2700,
                 "service": [
                   {
-                    "id": "https://karenandscott.github.io/annonatate/img/derivatives/iiif/DC/DCWN03",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/DCWN03",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://karenandscott.github.io/annonatate/img/derivatives/iiif/DC/canvas/DC-3"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/canvas/DC-3"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/dc-3-list.json",
+          "type": "AnnotationPage",
+          "target": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/canvas/DC-3"
         }
       ]
     },
     {
-      "id": "https://karenandscott.github.io/annonatate/img/derivatives/iiif/DC/canvas/DC-4",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/canvas/DC-4",
       "type": "Canvas",
       "label": {
         "en": [
@@ -164,7 +186,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://karenandscott.github.io/annonatate/img/derivatives/iiif/DC/DCWN04/full/169,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/DCWN04/full/169,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -172,35 +194,42 @@
       "width": 2700,
       "items": [
         {
-          "id": "https://karenandscott.github.io/annonatate/img/derivatives/iiif/DC/page/p4/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/page/p4/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://karenandscott.github.io/annonatate/img/derivatives/iiif/DC/annotation/p0004-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/annotation/p0004-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://karenandscott.github.io/annonatate/img/derivatives/iiif/DC/DCWN04/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/DCWN04/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2100,
                 "width": 2700,
                 "service": [
                   {
-                    "id": "https://karenandscott.github.io/annonatate/img/derivatives/iiif/DC/DCWN04",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/DCWN04",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://karenandscott.github.io/annonatate/img/derivatives/iiif/DC/canvas/DC-4"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/canvas/DC-4"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/dc-4-list.json",
+          "type": "AnnotationPage",
+          "target": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/canvas/DC-4"
         }
       ]
     },
     {
-      "id": "https://karenandscott.github.io/annonatate/img/derivatives/iiif/DC/canvas/DC-5",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/canvas/DC-5",
       "type": "Canvas",
       "label": {
         "en": [
@@ -209,7 +238,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://karenandscott.github.io/annonatate/img/derivatives/iiif/DC/DCWN05/full/169,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/DCWN05/full/169,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -217,35 +246,42 @@
       "width": 2700,
       "items": [
         {
-          "id": "https://karenandscott.github.io/annonatate/img/derivatives/iiif/DC/page/p5/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/page/p5/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://karenandscott.github.io/annonatate/img/derivatives/iiif/DC/annotation/p0005-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/annotation/p0005-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://karenandscott.github.io/annonatate/img/derivatives/iiif/DC/DCWN05/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/DCWN05/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2100,
                 "width": 2700,
                 "service": [
                   {
-                    "id": "https://karenandscott.github.io/annonatate/img/derivatives/iiif/DC/DCWN05",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/DCWN05",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://karenandscott.github.io/annonatate/img/derivatives/iiif/DC/canvas/DC-5"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/canvas/DC-5"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/dc-5-list.json",
+          "type": "AnnotationPage",
+          "target": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/canvas/DC-5"
         }
       ]
     },
     {
-      "id": "https://karenandscott.github.io/annonatate/img/derivatives/iiif/DC/canvas/DC-6",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/canvas/DC-6",
       "type": "Canvas",
       "label": {
         "en": [
@@ -254,7 +290,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://karenandscott.github.io/annonatate/img/derivatives/iiif/DC/DCWN06/full/169,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/DCWN06/full/169,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -262,30 +298,37 @@
       "width": 2700,
       "items": [
         {
-          "id": "https://karenandscott.github.io/annonatate/img/derivatives/iiif/DC/page/p6/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/page/p6/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://karenandscott.github.io/annonatate/img/derivatives/iiif/DC/annotation/p0006-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/annotation/p0006-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://karenandscott.github.io/annonatate/img/derivatives/iiif/DC/DCWN06/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/DCWN06/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2100,
                 "width": 2700,
                 "service": [
                   {
-                    "id": "https://karenandscott.github.io/annonatate/img/derivatives/iiif/DC/DCWN06",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/DCWN06",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://karenandscott.github.io/annonatate/img/derivatives/iiif/DC/canvas/DC-6"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/canvas/DC-6"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/dc-6-list.json",
+          "type": "AnnotationPage",
+          "target": "{{ '/' | absolute_url }}img/derivatives/iiif/DC/canvas/DC-6"
         }
       ]
     }
