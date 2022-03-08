@@ -1,0 +1,35 @@
+---
+canvas: "https://dreamy-jackson-498548.netlify.app/img/derivatives/iiif/canvas/dc_DC_WN_04.json"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "page 4 copied manifest anno test",
+            "purpose": "commenting",
+            "creator": {
+                "id": "karenandscott",
+                "name": "karenandscott"
+            },
+            "created": "2022-03-08T12:51:19.712Z",
+            "modified": "2022-03-08T12:51:26.634Z"
+        }
+    ],
+    "target": {
+        "source": "https://dreamy-jackson-498548.netlify.app/img/derivatives/iiif/canvas/dc_DC_WN_04.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1297.69140625,28.068044662475586,1390.64404296875,926.2454929351807"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://karenandscott.github.io/annonatate/manifests/iiif/dc/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "921ab41a-2478-4f36-8131-584094e78317.json",
+    "motivation": "commenting"
+}
