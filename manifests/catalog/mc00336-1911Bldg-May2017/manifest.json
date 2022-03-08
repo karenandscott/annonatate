@@ -1,24 +1,11 @@
 ---
+layout: none
 ---
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://karenandscott.github.io/annonatate/manifests/catalog/mc00336-1911Bldg-May2017/manifest.json",
+  "@id": "{{ '/' | absolute_url }}manifests/catalog/mc00336-1911Bldg-May2017/manifest.json",
   "@type": "sc:Manifest",
   "label": "1911 Building May 2017",
-  "related": {
-    "@id": "https://d.lib.ncsu.edu/collections/catalog/mc00336-1911Bldg-May2017",
-    "format": "text/html",
-    "label": "HTML page for the resource",
-    "dcterms:modified": "2021-02-03T21:26:40.501Z"
-  },
-  "logo": {
-    "@id": "https://d.lib.ncsu.edu/collections/assets/ncsu-libraries-white-logo-placement-0ac6d32dfc3427d3325882e6a32c81be.jpg"
-  },
-  "attribution": "Edward T. Funkhouser Photographs, 2001-2016 (MC00336), Special Collections Research Center at NC State University Libraries",
-  "license": [
-    "https://d.lib.ncsu.edu/collections/about#rights_and_use",
-    "http://rightsstatements.org/vocab/InC-NC/1.0"
-  ],
   "metadata": [
     {
       "label": "title",
@@ -43,46 +30,21 @@
   ],
   "thumbnail": {
     "@id": "https://iiif.lib.ncsu.edu/iiif/mc00336-1911Bldg-May2017/full/150,/0/default.jpg",
+    "@type": "dctypes:Image",
     "service": {
       "@context": "http://iiif.io/api/image/2/context.json",
       "@id": "https://iiif.lib.ncsu.edu/iiif/mc00336-1911Bldg-May2017",
       "profile": "http://iiif.io/api/image/2/level2.json"
     }
   },
-  "sequences": [
-    {
-      "canvases": [
-        {
-          "@type": "sc:Canvas",
-          "@id": "https://d.lib.ncsu.edu/collections/canvas/mc00336-1911Bldg-May2017",
-          "width": 5004,
-          "height": 3220,
-          "label": "[1]",
-          "images": [
-            {
-              "@id": "https://d.lib.ncsu.edu/collections/canvas/mc00336-1911Bldg-May2017/image",
-              "@type": "oa:Annotation",
-              "on": "https://d.lib.ncsu.edu/collections/canvas/mc00336-1911Bldg-May2017",
-              "motivation": "sc:painting",
-              "resource": {
-                "@id": "https://iiif.lib.ncsu.edu/iiif/mc00336-1911Bldg-May2017/full/1170,/0/default.jpg",
-                "width": 5004,
-                "height": 3220,
-                "service": {
-                  "profile": "http://iiif.io/api/image/2/level2.json",
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.lib.ncsu.edu/iiif/mc00336-1911Bldg-May2017"
-                },
-                "@type": "dctypes:Image"
-              }
-            }
-          ]
-        }
-      ],
-      "@type": "sc:Sequence",
-      "viewingHint": "non-paged"
-    }
+  "attribution": "Edward T. Funkhouser Photographs, 2001-2016 (MC00336), Special Collections Research Center at NC State University Libraries",
+  "license": [
+    "https://d.lib.ncsu.edu/collections/about#rights_and_use",
+    "http://rightsstatements.org/vocab/InC-NC/1.0"
   ],
+  "logo": {
+    "@id": "https://d.lib.ncsu.edu/collections/assets/ncsu-libraries-white-logo-placement-0ac6d32dfc3427d3325882e6a32c81be.jpg"
+  },
   "seeAlso": [
     {
       "@id": "https://d.lib.ncsu.edu/collections/catalog/oai?identifier=ncsul%2Fmc00336-1911Bldg-May2017&metadataPrefix=oai_dc&verb=GetRecord",
@@ -96,6 +58,53 @@
       "label": "Schema.org metadata as JSON-LD"
     }
   ],
-  "dcterms:modified": "2021-02-03T21:26:37.000Z",
-  "dcterms:created": "2018-03-07T17:58:43.000Z"
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "viewingHint": "non-paged",
+      "canvases": [
+        {
+          "@id": "https://d.lib.ncsu.edu/collections/canvas/mc00336-1911Bldg-May2017",
+          "@type": "sc:Canvas",
+          "label": "[1]",
+          "height": 3220,
+          "width": 5004,
+          "images": [
+            {
+              "@id": "https://d.lib.ncsu.edu/collections/canvas/mc00336-1911Bldg-May2017/image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.lib.ncsu.edu/iiif/mc00336-1911Bldg-May2017/full/1170,/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3220,
+                "width": 5004,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.lib.ncsu.edu/iiif/mc00336-1911Bldg-May2017",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://d.lib.ncsu.edu/collections/canvas/mc00336-1911Bldg-May2017"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/mc00336-1911bldg-may2017-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "related": {
+    "@id": "https://d.lib.ncsu.edu/collections/catalog/mc00336-1911Bldg-May2017",
+    "format": "text/html",
+    "label": "HTML page for the resource",
+    "dcterms:modified": "2021-02-03T21:26:40.501Z"
+  },
+  "dcterms:created": "2018-03-07T17:58:43.000Z",
+  "dcterms:modified": "2021-02-03T21:26:37.000Z"
 }
