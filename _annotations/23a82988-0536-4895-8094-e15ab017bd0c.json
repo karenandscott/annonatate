@@ -1,0 +1,35 @@
+---
+canvas: "https://d.lib.ncsu.edu/collections/canvas/mc00336-1911Bldg-May2017"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Top of building",
+            "purpose": "commenting",
+            "creator": {
+                "id": "karenandscott",
+                "name": "karenandscott"
+            },
+            "created": "2022-03-08T12:37:03.334Z",
+            "modified": "2022-03-08T12:37:05.407Z"
+        }
+    ],
+    "target": {
+        "source": "https://d.lib.ncsu.edu/collections/canvas/mc00336-1911Bldg-May2017",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1608.6424560546875,547.1000366210938,2304.0367431640625,873.7951049804688"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://karenandscott.github.io/annonatate/manifests/catalog/mc00336-1911Bldg-May2017/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "23a82988-0536-4895-8094-e15ab017bd0c.json",
+    "motivation": "commenting"
+}
