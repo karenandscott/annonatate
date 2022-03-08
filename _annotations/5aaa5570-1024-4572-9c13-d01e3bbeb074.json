@@ -1,0 +1,35 @@
+---
+canvas: "https://karenandscott.github.io/annonatate/img/derivatives/iiif/DC/canvas/DC-5"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Page 5 Title",
+            "purpose": "commenting",
+            "creator": {
+                "id": "karenandscott",
+                "name": "karenandscott"
+            },
+            "created": "2022-03-08T12:46:52.456Z",
+            "modified": "2022-03-08T12:46:56.478Z"
+        }
+    ],
+    "target": {
+        "source": "https://karenandscott.github.io/annonatate/img/derivatives/iiif/DC/canvas/DC-5",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1305.3463134765625,17.861482620239258,1411.0572509765625,191.3730297088623"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://karenandscott.github.io/annonatate/img/derivatives/iiif/DC/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "5aaa5570-1024-4572-9c13-d01e3bbeb074.json",
+    "motivation": "commenting"
+}
