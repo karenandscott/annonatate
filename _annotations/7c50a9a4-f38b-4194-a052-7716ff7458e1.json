@@ -1,0 +1,35 @@
+---
+canvas: "https://dreamy-jackson-498548.netlify.app/img/derivatives/iiif/canvas/dc_DC_WN_01.json"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Lobsters and Crawfish",
+            "purpose": "commenting",
+            "creator": {
+                "id": "karenandscott",
+                "name": "karenandscott"
+            },
+            "created": "2022-03-09T19:56:56.778Z",
+            "modified": "2022-03-09T19:57:02.429Z"
+        }
+    ],
+    "target": {
+        "source": "https://dreamy-jackson-498548.netlify.app/img/derivatives/iiif/canvas/dc_DC_WN_01.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=75.95419311523438,354.58013916015625,799.9999694824219,311.45037841796875"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://karenandscott.github.io/annonatate/manifests/iiif/dc/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "7c50a9a4-f38b-4194-a052-7716ff7458e1.json",
+    "motivation": "commenting"
+}
