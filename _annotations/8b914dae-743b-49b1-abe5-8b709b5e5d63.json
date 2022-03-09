@@ -1,0 +1,34 @@
+---
+canvas: "https://dreamy-jackson-498548.netlify.app/img/derivatives/iiif/canvas/dc_DC_WN_02.json"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Polygon test",
+            "purpose": "commenting",
+            "creator": {
+                "id": "karenandscott",
+                "name": "karenandscott"
+            },
+            "created": "2022-03-09T20:22:27.913Z",
+            "modified": "2022-03-09T20:22:29.501Z"
+        }
+    ],
+    "target": {
+        "source": "https://dreamy-jackson-498548.netlify.app/img/derivatives/iiif/canvas/dc_DC_WN_02.json",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"86.04541778564453,22.202678680419922 96.73243713378906,286.3247985839844 496.732421875,84.798095703125 350.16754150390625,11.515656471252441\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://karenandscott.github.io/annonatate/manifests/iiif/dc/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "8b914dae-743b-49b1-abe5-8b709b5e5d63.json",
+    "motivation": "commenting"
+}
