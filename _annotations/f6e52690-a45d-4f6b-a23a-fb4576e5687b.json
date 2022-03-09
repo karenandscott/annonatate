@@ -1,0 +1,35 @@
+---
+canvas: "https://dreamy-jackson-498548.netlify.app/img/derivatives/iiif/canvas/dc_DC_WN_02.json"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Is this marked through?",
+            "purpose": "commenting",
+            "creator": {
+                "id": "karenandscott",
+                "name": "karenandscott"
+            },
+            "created": "2022-03-09T20:19:25.755Z",
+            "modified": "2022-03-09T20:19:30.686Z"
+        }
+    ],
+    "target": {
+        "source": "https://dreamy-jackson-498548.netlify.app/img/derivatives/iiif/canvas/dc_DC_WN_02.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=117.17556762695312,933.2060546875,566.4122009277344,137.404541015625"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://karenandscott.github.io/annonatate/manifests/iiif/dc/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "f6e52690-a45d-4f6b-a23a-fb4576e5687b.json",
+    "motivation": "commenting"
+}
